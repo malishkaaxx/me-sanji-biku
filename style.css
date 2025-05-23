@@ -1,0 +1,160 @@
+.topnav {
+    background-color: #d3a6c1;
+    overflow: hidden;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    padding: 20px 20px;
+    overflow: hidden;
+    display: flex;
+
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 60px;
+
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+    text-decoration: none;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #eacaef;
+    color: rgb(37, 37, 37);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #b480a8;
+    color: white;
+}
+
+.hi_bby {
+    color: #610a4d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.flower1 {
+    float: left;
+}
+
+.flower3 {
+    float: right;
+    padding-right: 40px;
+}
+
+.flower4 {
+    float: right;
+    padding-right: 500px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_note {
+    color: #ba5fa5;
+    border: 2px solid rgb(240, 124, 190);
+    padding: 20px;
+    /* Adds space inside the border */
+    margin: 20px 0;
+    text-align: justify;
+    width: 600px;
+    margin-left: 20px;
+    /* Space from the left edge */
+    margin-right: auto;
+    /* Pushes it to the left */
+
+}
+
+.farewell_home {
+    width: 800px;
+    height: auto;
+    position: right;
+    top: 20px;
+    /* Distance from the top of the page */
+    right: 20px;
+    /* Distance from the right side */
+}
+
+.message_note_head {
+    color: #7f356e;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600
+}
+
+.message_note {
+
+    color: #ba5fa5;
+    border: 2px solid rgb(240, 124, 190);
+    padding: 20px;
+    /* Adds space inside the border */
+    margin: 20px 0;
+    text-align: justify;
+    width: 600px;
+    margin-left: 20px;
+    /* Space from the left edge */
+    margin-left: auto;
+    /* Pushes it to the left */
+}
+
+.message_farewell_img {
+    display: flex;
+
+    align-items: center;
+}
+
+.farewell_message {
+    width: 500px;
+    height: auto;
+    position: center;
+    top: 20px;
+    /* Distance from the top of the page */
+    right: 20px;
+    /* Distance from the right side */
+    padding-left: 20px;
+}
+
+.ily_img {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    padding: 10px;
+    left: 10px;
+    right: 10px;
+    width: 100;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: #d3b8d1;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: rgb(115, 48, 94);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 50%;
+    text-align: center;
+    padding: auto;
+}
